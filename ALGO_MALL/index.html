@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ALGO MALL</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="../ALGO_MALL/assets/logo.jpg" alt="logo">
+            </div>
+
+            <ul>
+                <li><a href="#">Litepaper</a></li>
+                <li><a href="#">Roadmap</a></li>
+                <button class="sec_btn"><a href="#">Connect Wallet</a></button>
+            </ul>
+        </nav>
+
+        <div class="hero">
+            <div class="hero_text">
+                <h1>Sparking a revolution <br> in the NFT space</h1>
+                <h4>ALGO MALL aims to become the top tier <br> NFT marketplace on ALGO network.</h4>
+                <button class="btn">Explore Collections</button>
+            </div>
+
+            <div class="hero_img">
+                <img src="./assets/hero.jpg" alt="">
+            </div>
+        </div>
+    </header>
+
+    <section class="section_collections">
+        <h2>COLLECTIONS</h2>
+        <div class="carousel">
+            <div class="carousel-cell">
+                <img src="./assets/gold-opt.jpg" alt="AGM EXCLUSIVE">
+                <div class="card_info">
+                        <h1>AGM EXCLUSIVE #1</h1>
+                        <h3>205 items</h3>
+                        <h4>450 AGM Logo <br> 500 Algo Logo <br> 940 USDT Logo</h4>        
+                </div>
+            </div>
+
+            <div class="carousel-cell">
+                <img src="./assets/blue-opt.jpg" alt="AGM EXCLUSIVE">
+                <div class="card_info">
+                        <h1>AGM Giveaway NFT</h1>
+                        <h3>2700 items</h3>
+                        <h4>45 AGM Logo <br> 50 Algo Logo <br> 94 USDT Logo</h4>        
+                </div>
+            </div>
+
+            <div class="carousel-cell">
+                <img src="./assets/SDB-opt.jpg" alt="AGM EXCLUSIVE">
+                <div class="card_info">
+                        <h1>Slimey Doge Business (SDB)</h1>
+                        <h3>10000 items</h3>
+                        <h4>4500 AGM Logo <br> 5000 Algo Logo <br> 9400 USDT Logo</h4>        
+                </div>
+            </div>
+
+            <div class="carousel-cell">
+                <img src="./assets/bro-opt.jpg" alt="AGM EXCLUSIVE">
+                <div class="card_info">
+                        <h1>Retro Brothers NFT</h1>
+                        <h3>5000 items</h3>
+                        <h4>90 AGM Logo <br> 100 Algo Logo <br> 188 USDT Logo</h4>   
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section_roadmap">
+
+            <div class="roadmap">
+                    <h1>Roadmap</h1>
+                    <h2>Route towards becoming the top NFT marketplace</h2>        
+                </div>
+
+              <div class="rb-container">
+                <ul class="rb">
+                  <li class="rb-item" ng-repeat="itembx">
+                    <div class="timestamp">
+                        Q4 2021 
+                    </div>
+                    <div class="item-title">NOVEMBER</div>
+                    <div class="item">Spring of ALGO MALL vision
+                       <br> Presale Whitelist
+                       <br> Presale
+                       <br> Finalized distribution of Presale and Airdrop tokens 
+                       <br> Burn of unsold/unclaimed Presale and Airdrop tokens
+                    </div>
+
+                        <div class="item-title">DECEMBER</div>
+                        <div class="item">Official token launch/addition of liquidity 
+                           <br> NFT Marketplace 
+                           <br> Staking Program
+                            </div>
+                  </li>
+                  <li class="rb-item" ng-repeat="itembx">
+                    <div class="timestamp">
+                        Q1 2022 
+                    </div>
+                    <div class="item">Community Campaigns 
+                       <br> AGM Hackathon 
+                       <br> Tier 1 CEX listings </div>
+                  </li>
+          
+                  <li class="rb-item" ng-repeat="itembx">
+                    <div class="timestamp">
+                        Q2 2022 
+                    </div>
+                    <div class="item">Cross-chain integration to NFT Marketplace  
+                       <br> Buy Back and Burn of AGM tokens 
+                       <br> NFT Drops for AGM Stakers/Holders
+                        </div>
+                  </li>
+
+                  <li class="rb-item" ng-repeat="itembx">
+                    <div class="timestamp">
+                        Q3 2022 
+                    </div>
+                    <div class="item">AGM GameFi
+                       <br> UI/UX upgrade/revamp</div>
+                  </li>
+          
+                </ul>
+          </div>
+    </section>
+
+    <section class="section_tokenomics">
+
+            <div class="lb-container">
+                    <ul class="lb">
+    
+                      <li class="lb-item" ng-repeat="itembx">
+                        <div class="timestamp">
+                            Q1 2022 
+                        </div>
+                        <div class="item">Community Campaigns 
+                           <br> AGM Hackathon 
+                           <br> Tier 1 CEX listings 
+                        </div>
+                      </li>
+                    </ul>   
+            </div>
+
+        <h1>AMG TOKENOMICS</h1>
+        <div class="pie_div">
+            <canvas id="myChart"></canvas>
+        </div>          
+    </section>
+
+
+    <footer>
+        <h1>@ Copyright 2021 <br> Algo Mall</h1>
+        <div class="socials">
+            T I F
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script> -->
+    <script src="./script.js"></script>
+
+</body>
+</html>

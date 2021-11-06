@@ -1,0 +1,283 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{font-family: 'Lato'; }
+
+header{
+    padding: 3% 10%;
+}
+
+.logo img{
+    height: 45px;
+}
+
+nav, nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav li{
+    list-style: none;
+    margin-left: 30px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #1d1d1d;
+    font-weight: 600;
+}
+
+.sec_btn{
+    background: none;
+    border: 2px solid #1d1d1d;
+    border-radius: 5px;
+    margin-left: 30px;
+    padding: 16px 24px;
+}
+
+.hero{
+    display: flex;
+    margin-top: 10%;
+    justify-content: space-between;
+}
+
+.hero_text{
+    font-size:  1.5em;
+    align-items: center;
+}
+
+.hero_text h4{
+    color: #7c7c7c;
+    margin: 10px auto 32px auto;
+}
+
+.hero img{width: 90% ; float: right;}
+
+.btn{
+    background-color: #1d1d1d;
+    border-radius: 5px;
+    border: none;
+    padding: 16px 24px;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+
+/* =COLLECTION=================================== */
+
+.section_collections{
+    padding: 5% 10%;
+    margin:  5% auto;
+}
+
+.section_collections h2::after{
+    background: #dc5c5c;
+    display: block;
+    content: " ";
+    width: 200px;
+    height: 3px;
+    margin: 10px 0 20px 0;
+}
+
+.carousel{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.carousel-cell{
+    width: 23%;
+    border-radius: 5px;
+    box-shadow: 3px 5px 16px 1px #ebebeb;
+}
+
+.carousel-cell img{
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.card_info{
+    padding: 20px;
+}
+
+.carousel h1{
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+.carousel h3{
+    color: #7c7c7c;
+    padding: 10px 0;
+}
+
+.carousel h4{
+    color: #dc5c5c;
+}
+
+
+/* =ROADMAP======================================== */
+
+.section_roadmap{
+    background: url('./assets/roadmap-bg.jpg');
+    background-repeat: no-repeat;
+    letter-spacing: 0.5px;
+}
+
+.roadmap{
+    color: #fff;
+    text-align: center;
+    padding: 5% 0 2% 0;
+}
+
+.roadmap h1::after,
+.section_tokenomics h1::after{
+    background: #dc5c5c;
+    display: block;
+    content: " ";
+    width: 100px;
+    height: 3px;
+    margin: 10px auto 20px auto;
+}
+
+.roadmap h2{
+    font-size: 1rem;
+    font-weight: 200;
+}
+  
+  .rb-container {
+    width: 70%;
+    margin: auto;
+    display: block;
+    position: relative;
+  }
+  
+  .rb-container ul.rb {
+    margin: 2.5em 0;
+    padding: 0;
+    display: inline-block;
+  }
+  
+  .rb-container ul.rb li {
+    list-style: none;
+    margin: auto;
+    margin-left: 10em;
+    min-height: 50px;
+    border-left: 2px dashed #fff;
+    padding: 0 0 50px 30px;
+    position: relative;
+  }
+  
+.rb-container ul.rb li:last-child {
+    border-left: 0;
+  }
+  
+  .rb-container ul.rb li::before {
+    position: absolute;
+    left: -18px;
+    top: -5px;
+    content: " ";
+    border: 8px solid rgba(255, 255, 255, 1);
+    border-radius: 500%;
+    background: #dc5c5c;
+    height: 20px;
+    width: 20px;
+  }
+  
+  
+  ul.rb li .timestamp {
+    color: #dc5c5c;
+    position: relative;
+    width: 100px;
+    font-size: 1.2rem;
+  }
+  
+  .item-title {
+    color: #ebebeb;
+    font-weight: 900;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 1.1rem;
+  }
+
+  .item{color: #fff; font-size: 1.1rem; line-height: 200%}
+  
+
+  /* =TOKENOMICS============================== */
+
+
+.section_tokenomics{
+    padding: 8% 20% 0 20%;
+}
+
+.section_tokenomics h1{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.pie_div{
+    width: 85%;
+    font-size: 1.1rem;
+    position: relative;
+    top: -85px;
+}
+
+
+.lb-container {
+    width: 70%;
+    margin: auto;
+    display: block;
+    position: relative;
+  }
+  
+  .lb-container ul.rb {
+    margin: 2.5em 0;
+    padding: 0;
+    display: inline-block;
+  }
+  
+  .lb-container ul.rb li {
+    list-style: none;
+    margin: auto;
+    margin-left: 10em;
+    min-height: 50px;
+    border-left: 2px solid rgb(56, 56, 56);
+    padding: 0 0 50px 30px;
+    position: relative;
+  }
+  
+.lb-container ul.rb li:last-child {
+    border-left: 0;
+  }
+  
+  .lb-container ul.rb li::before {
+    position: absolute;
+    left: -18px;
+    top: -5px;
+    content: " ";
+    border: 8px solid rgb(49, 49, 49);
+    border-radius: 500%;
+    background: #dc5c5c;
+    height: 20px;
+    width: 20px;
+  }
+
+
+/* =FOOTER================================= */
+
+footer{
+    background-color: #1d1d1d;
+    padding: 5% 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer h1{
+    font-size: 1.2rem;
+    color: #ebebeb;
+}
+
